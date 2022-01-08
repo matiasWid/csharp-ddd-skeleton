@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using CodelyTv.Mooc.Shared.Domain;
 
 namespace CodelyTv.Mooc.Courses.Domain
 {

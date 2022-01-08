@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CodelyTv.Mooc.Courses.Domain;
+using CodelyTv.Mooc.Shared.Domain;
 
 namespace CodelyTv.Mooc.CoursesCounters.Domain
 {

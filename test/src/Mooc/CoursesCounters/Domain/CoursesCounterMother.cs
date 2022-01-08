@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using CodelyTv.Mooc.Courses.Domain;
 using CodelyTv.Mooc.CoursesCounters.Domain;
+using CodelyTv.Mooc.Shared.Domain;
 using CodelyTv.Test.Mooc.Courses.Domain;
 using CodelyTv.Test.Shared.Domain;
 

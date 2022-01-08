@@ -46,11 +46,11 @@ namespace CodelyTv.Shared.Infrastructure.Bus.Event.RabbitMq
             DeclareQueue(channel, queue);
 
             channel.BasicQos(0, prefetchCount, false);
-            var scope = _serviceProvider.CreateScope();
             var consumer = new EventingBasicConsumer(channel);
             consumer.Received += async (model, ea) =>
             {
-                var body = ea.Body;
+                var scope = _serviceProvider.CreateScope();
+                var body = ea.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
                 var @event = _deserializer.Deserialize(message);
 

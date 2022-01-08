@@ -1,4 +1,5 @@
 using System;
+using CodelyTv.Mooc.Shared.Domain;
 using CodelyTv.Shared.Domain.Aggregate;
 using CodelyTv.Shared.Domain.Courses.Domain;
 

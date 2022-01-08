@@ -1,5 +1,6 @@
 using CodelyTv.Mooc.Courses.Application.Create;
 using CodelyTv.Mooc.Courses.Domain;
+using CodelyTv.Mooc.Shared.Domain;
 using CodelyTv.Test.Mooc.Courses.Domain;
 
 namespace CodelyTv.Test.Mooc.Courses.Application.Create

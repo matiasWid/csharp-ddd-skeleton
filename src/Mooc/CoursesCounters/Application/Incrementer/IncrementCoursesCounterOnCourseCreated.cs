@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using CodelyTv.Mooc.Courses.Domain;
+using CodelyTv.Mooc.Shared.Domain;
 using CodelyTv.Shared.Domain.Bus.Event;
 using CodelyTv.Shared.Domain.Courses.Domain;
 
